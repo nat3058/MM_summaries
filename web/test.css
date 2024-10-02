@@ -1,0 +1,92 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Container Styles */
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Text Styles */
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Summary-specific Styles */
+
+.summary {
+  margin-bottom: 40px;
+}
+
+.summary h2 {
+  margin-top: 0;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    margin: 10px auto;
+  }
+  .summary {
+    margin-bottom: 20px;
+  }
+}
