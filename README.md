@@ -1,5 +1,7 @@
 # MM_summaries
 
+Deprecarted. Maintained version: https://github.com/nat3058/MadMoneySummaries
+
 Code is a bit messy rn. will clean up and update this README with usage details. 
 I will also host this website online shortly and add the website link here.
 
